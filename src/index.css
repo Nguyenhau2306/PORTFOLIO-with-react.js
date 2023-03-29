@@ -8,11 +8,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+div#root {
+  background: linear-gradient(45deg, #7ec67c, #197278);
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Navbar */
 .navbar {
   width: 100%;
   background: linear-gradient(45deg, #464cad, #5ae75d);
@@ -35,4 +38,20 @@ a.navbar-brand.fw-bold.fs-4 {color: #c1f1e3;}
 }
 ::before {
   color: black;
+}
+.col-md-6 img{
+    padding: 10px;
+    border-radius: 50%;
+}
+/* Information */
+h1.text-information {
+  color: azure;
+  font-size: 1.6em;
+  text-decoration-line: underline;
+}
+a.btn.btn-outline-primary.px-3 {
+  background: #b2d5cc;
+  color: #411e67;
+  font-size: 1.4em;
+  font-weight: 600;
 }

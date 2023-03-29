@@ -1,8 +1,8 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import About from "./components/About";
-import Skills from "./components/Skills";
+import Information from "./components/Information";
+import Skill from "./components/Skill";
 import Blogs from "./components/Blogs";
 import { Redirect, Route, Switch } from "react-router-dom";
 
@@ -13,8 +13,8 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
-        <Route exact path="/skills" component={Skills} />
-        <Route exact path="/about" component={About} />
+        <Route exact path="/skill" component={Skill} />
+        <Route exact path="/information" component={Information} />
         <Route exact path="/blogs" component={Blogs} />
         <Redirect to="/" />
       </Switch>

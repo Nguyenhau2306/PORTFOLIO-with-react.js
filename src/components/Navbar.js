@@ -27,13 +27,13 @@ export default function Navbar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about">
-                  About
+                <a class="nav-link" href="/information">
+                  Information
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/skills">
-                  Skills
+                <a class="nav-link" href="/skill">
+                  Skill
                 </a>
               </li>
               <li class="nav-item">
@@ -43,17 +43,29 @@ export default function Navbar() {
               </li>
             </ul>
             <div className="icon">
-              <a href="/instagram">
+              <a
+                href="https://www.instagram.com/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
                 <i class="fa fa-instagram" aria-hidden="true"></i>
               </a>
             </div>
             <div className="icon">
-              <a href="/telegram">
+              <a
+                href="https://web.telegram.org/z/#5954787913"
+                target={"_blank"}
+                rel="noreferrer"
+              >
                 <i class="fa fa-telegram" aria-hidden="true"></i>
               </a>
             </div>
             <div className="icon">
-              <a href="/github">
+              <a
+                href="https://github.com/Nguyenhau2306/PORTFOLIO-with-react.js"
+                target={"_blank"}
+                rel="noreferrer"
+              >
                 <i class="fa fa-github" aria-hidden="true"></i>
               </a>
             </div>
