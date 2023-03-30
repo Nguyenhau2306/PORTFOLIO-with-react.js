@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Navbar() {
+export default function Header() {
   return (
     <div className="navbar">
       <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
@@ -37,7 +37,7 @@ export default function Navbar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/Blogs">
+                <a class="nav-link" href="/blogs">
                   Blogs
                 </a>
               </li>

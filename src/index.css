@@ -15,7 +15,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/* Navbar */
+/* Header */
 .navbar {
   width: 100%;
   background: linear-gradient(45deg, #464cad, #5ae75d);
@@ -26,8 +26,13 @@ div#navbarSupportedContent {
 }
 a.nav-link:hover{
   color: azure;
+  text-decoration: none;
 }
-a.navbar-brand.fw-bold.fs-4 {color: #c1f1e3;}
+a.navbar-brand.fw-bold.fs-4 {
+  color: #c1f1e3;
+  text-decoration: none;
+  cursor: none;
+}
 .icon{
   margin-left: 20px;
   font-size: 25px;
@@ -38,20 +43,93 @@ a.navbar-brand.fw-bold.fs-4 {color: #c1f1e3;}
 }
 ::before {
   color: black;
+  cursor: pointer;
 }
 .col-md-6 img{
     padding: 10px;
     border-radius: 50%;
 }
+.col-md-6 img:hover{
+  height:400px;
+  width:400px
+}
 /* Information */
 h1.text-information {
-  color: azure;
+  color: black;
   font-size: 1.6em;
   text-decoration-line: underline;
 }
 a.btn.btn-outline-primary.px-3 {
-  background: #b2d5cc;
+  background: #fff;
   color: #411e67;
   font-size: 1.4em;
   font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+a.btn.btn-outline-primary.px-3:hover {
+  background: #b2d5cc;
+
+}
+
+ul.information {
+  color: #fff;
+  font-size: 1em;
+  margin: 15px;
+}
+a {
+  color: #090909;
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+a:hover{
+  text-decoration: underline;
+}
+/* skill */
+.Text-skill {
+  display: flex;
+  padding: 5px;
+  margin-top: 20px;
+}
+h1.Text-skill{
+  color: black;
+  font-size: 1.6em;
+  font-weight: 500;
+  text-decoration-line: underline;
+}
+ul.skill{
+  color: #fff;
+  font-size: 1em;
+}
+.skill p{
+  margin-left: 12rem;
+  margin-top: -1.5rem;
+  margin-bottom: 1rem;
+}
+
+
+.Text-skill-1 {
+  display: flex;
+  padding: 5px;
+  margin-top: 20px;
+}
+h1.Text-skill-1{
+  margin-top: -150px;
+  margin-left: 50%;
+  color: black;
+  font-size: 1.6em;
+  font-weight: 500;
+  text-decoration-line: underline;
+}
+ul.skill-1{
+  margin-left: 50%;
+  color: #fff;
+  font-size: 1em;
+}
+.skill-1 p{
+  margin-left: 12rem;
+  margin-top: -1.5rem;
+  margin-bottom: 1rem;
 }

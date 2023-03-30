@@ -1,5 +1,5 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Home from "./components/Home";
 import Information from "./components/Information";
 import Skill from "./components/Skill";
@@ -9,7 +9,7 @@ import { Redirect, Route, Switch } from "react-router-dom";
 function App() {
   return (
     <>
-      <Navbar />
+      <Header />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
