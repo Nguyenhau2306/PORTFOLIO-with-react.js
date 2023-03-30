@@ -45,6 +45,7 @@ a.navbar-brand.fw-bold.fs-4 {
   color: black;
   cursor: pointer;
 }
+/* Information */
 .col-md-6 img{
     padding: 10px;
     border-radius: 50%;
@@ -53,7 +54,6 @@ a.navbar-brand.fw-bold.fs-4 {
   height:400px;
   width:400px
 }
-/* Information */
 h1.text-information {
   color: black;
   font-size: 1.6em;
@@ -71,14 +71,13 @@ a.btn.btn-outline-primary.px-3:hover {
   background: #b2d5cc;
 
 }
-
 ul.information {
   color: #fff;
   font-size: 1em;
   margin: 15px;
 }
 a {
-  color: #090909;
+  color: #3318d9;
   font-size: 1.1em;
   text-decoration: none;
   font-weight: 600;
@@ -87,6 +86,7 @@ a {
 a:hover{
   text-decoration: underline;
 }
+
 /* skill */
 .Text-skill {
   display: flex;
@@ -116,15 +116,13 @@ ul.skill{
   margin-top: 20px;
 }
 h1.Text-skill-1{
-  margin-top: -150px;
-  margin-left: 50%;
+  margin-top: 100px;
   color: black;
   font-size: 1.6em;
   font-weight: 500;
   text-decoration-line: underline;
 }
 ul.skill-1{
-  margin-left: 50%;
   color: #fff;
   font-size: 1em;
 }
@@ -132,4 +130,19 @@ ul.skill-1{
   margin-left: 12rem;
   margin-top: -1.5rem;
   margin-bottom: 1rem;
+}
+.row1{
+  display: flex;
+}
+.row1 img{
+  margin-top: 200px;
+  border-radius: 50%;
+}
+.row1 img:hover{
+  height:400px;
+  width:400px
+}
+.link-blogs{
+    margin-top: 50px;
+    margin-left: 100%;
 }

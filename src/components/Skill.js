@@ -6,7 +6,7 @@ export default function Skills() {
       <div className="container py-5 my-4">
         <div className="row">
           <div className="col-md-6">
-            <h1 className="Text-skill">Học vấn:</h1>
+            <h1 className="Text-skill">Quá trình học tập:</h1>
             <ul className="skill">
               <li>09/2017 - 07/2022</li>
               <p>
@@ -15,6 +15,12 @@ export default function Skills() {
                 Khoa công nghệ thông tin
                 <br />
                 Tốt nghiệp loại khá
+              </p>
+              <br />
+              <li>10/2022 - 03/2023</li>
+              <p>
+                Thực tập sinh Font-End( 3 tháng ) và là nhân viên chính thức làm
+                việc tại Công Ty Cổ Phần Số Hoá An Bình (01/2023)
               </p>
             </ul>
           </div>
@@ -26,16 +32,17 @@ export default function Skills() {
               width="300px"
             />
           </div>
-          <div className="col-md-6 d-flex justify-content-center">
-            <img
-              src="./img/anh1.jpg"
-              alt="Information Us"
-              height="300px"
-              width="300px"
-            />
-          </div>
+
           <div className="row1">
-            <div className="col-md-12">
+            <div className="col-md-5 d-flex justify-content-center">
+              <img
+                src="./img/anh1.jpg"
+                alt="Information Us"
+                height="300px"
+                width="300px"
+              />
+            </div>
+            <div className="col-md-6">
               <h1 className="Text-skill-1">Các Kỹ Năng:</h1>
               <ul className="skill-1">
                 <li>Làm việc nhóm :</li>
@@ -62,13 +69,15 @@ export default function Skills() {
                 <li>Library :</li>
                 <p>React.js , Boostrap 5</p>
               </ul>
+              <div className="link-blogs">
+                <Link to="/blogs" className="btn btn-outline-primary px-3">
+                  Blogs>>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <Link to="/blogs" className="btn btn-outline-primary px-3">
-        Blogs>>
-      </Link>
     </div>
   );
 }

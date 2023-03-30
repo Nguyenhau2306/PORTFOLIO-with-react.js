@@ -23,16 +23,18 @@ export default function Information() {
                 facebook.com
               </a>
             </ul>
-            <Link to="/skill" className="btn btn-outline-primary px-3">
-              Skill>>
-            </Link>
+            <div className="link-information">
+              <Link to="/skill" className="btn btn-outline-primary px-3">
+                Skill>>
+              </Link>
+            </div>
           </div>
           <div className="col-md-6 d-flex justify-content-center">
             <img
               src="./img/about.jpg"
               alt="Information Us"
-              height="400px"
-              width="400px"
+              height="300px"
+              width="300px"
             />
           </div>
         </div>
